@@ -14,6 +14,11 @@ class ComposerStaticInitbd351f9fab57aa4e3c8335e4dbef0b0a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'aabdelhameed\\Woocommerce\\Test\\' => 30,
+            'aabdelhameed\\Woocommerce\\' => 25,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -31,6 +36,14 @@ class ComposerStaticInitbd351f9fab57aa4e3c8335e4dbef0b0a
     );
 
     public static $prefixDirsPsr4 = array (
+        'aabdelhameed\\Woocommerce\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'aabdelhameed\\Woocommerce\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
