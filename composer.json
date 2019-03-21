@@ -1,6 +1,29 @@
 {
-    "name": "aabdelhameed/woolaravel",
+    "name": "aabdelhameed/Woocommerce",
+    "keywords": [
+        "laravel",
+        "wordpress",
+        "woocommerce",
+        "rest",
+        "api",
+        "ecommerce",
+        "e-commerce",
+        "shop",
+        "cart"
+    ],
+    "homepage": "https://github.com/aahameed/WooCommerceLaravel",
+
     "type": "plugin",
+    "autoload": {
+        "psr-4": {
+            "aabdelhameed\\Woocommerce\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "aabdelhameed\\Woocommerce\\Test\\": "tests"
+        }
+    },
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
